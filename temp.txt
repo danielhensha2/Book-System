@@ -1,0 +1,2 @@
+tring update = "INSERT INTO books (ID, Title, Author, Year, Edition, Publisher, Isbn, Cover, Condition, Price, Notes) VALUES ("+in.getID()+",'"+ 
+      in.getTitle()+ "','" + in.getAuthor()+ "'," + in.getYear()+ "'," + in.getEdition()+"',"+in.getPublisher()+"',"+ in.getIsbn() + "'," + in.getCover()+"',"+in.getCondition()+"',"+in.getPrces()+","+in.getNotes() + ");";
